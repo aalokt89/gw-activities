@@ -1,0 +1,104 @@
+html * {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	display: flex;
+	align-items: center;
+	height: 88px;
+	width: 100%;
+	background: #eee;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 0 0 24px;
+	margin: 0;
+	height: 100%;
+}
+
+nav ul li {
+	list-style: none;
+	margin-right: 8px;
+	padding: 0;
+	height: 100%;
+}
+
+nav a {
+	display: inline-flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 0px 32px;
+	background: #333;
+	color: #fff;
+	height: 64px;
+}
+
+/* ----------------------------------------------- */
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 20% 1fr;
+}
+
+.side-bar {
+	padding: 24px;
+	background: #ccc;
+}
+
+.pet-profile img {
+	display: block;
+	width: 100%;
+}
+
+.pet-profile h2 {
+	text-align: center;
+	margin-top: 16px;
+}
+
+.pet-stats-container {
+	padding: 48px 0;
+}
+
+.pet-stat {
+	margin-bottom: 16px;
+}
+
+.pet-stat h3 {
+	margin-bottom: 32px;
+}
+
+/* ----------------------------------------- */
+
+main {
+	padding: 128px;
+}
+
+#pet-bio-section {
+	margin-bottom: 64px;
+	width: 100%;
+}
+
+#pet-bio-section img {
+	float: left;
+	margin: 0 24px 24px 0;
+	width: 200px;
+}
+
+/* -------------------------------------- */
+
+.pet-image-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 16px;
+	width: 100%;
+}
+.pet-image img {
+	width: 100%;
+}
